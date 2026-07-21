@@ -1,0 +1,69 @@
+support,itemsets,itemset_size
+0.3772,Detergent,1
+0.3731,Shampoo,1
+0.3355,Soap,1
+0.3263,Bread,1
+0.3006,Sponge,1
+0.2964,Toothpaste,1
+0.2952,Milk,1
+0.2935,Bleach,1
+0.2752,Chocolate,1
+0.274,Cookies,1
+0.2655,Shampoo + Soap,2
+0.2519,Detergent + Shampoo,2
+0.2484,Chips,1
+0.2479,Bleach + Detergent,2
+0.2452,Detergent + Sponge,2
+0.2421,Shampoo + Toothpaste,2
+0.2393,Detergent + Soap,2
+0.2338,Bread + Milk,2
+0.2146,Butter,1
+0.2146,Bread + Butter,2
+0.2123,Soap + Toothpaste,2
+0.2115,Soda,1
+0.2115,Chips + Soda,2
+0.2088,Shampoo + Sponge,2
+0.2072,Conditioner,1
+0.2072,Conditioner + Shampoo,2
+0.2046,Detergent + Toothpaste,2
+0.1983,Chips + Chocolate,2
+0.1935,Bleach + Shampoo,2
+0.1934,Soap + Sponge,2
+0.1921,Bleach + Sponge,2
+0.1863,Chips + Cookies,2
+0.185,Bleach + Soap,2
+0.1818,Shampoo + Soap + Toothpaste,3
+0.1796,Eggs,1
+0.1796,Bread + Eggs,2
+0.1785,Disinfectant,1
+0.1785,Detergent + Disinfectant,2
+0.1767,Chocolate + Cookies,2
+0.1747,Butter + Milk,2
+0.1747,Bread + Butter + Milk,3
+0.1721,Bleach + Detergent + Sponge,3
+0.1693,Detergent + Shampoo + Soap,3
+0.1682,Jam,1
+0.1682,Bread + Jam,2
+0.1676,Chocolate + Soda,2
+0.1676,Chips + Chocolate + Soda,3
+0.167,Sponge + Toothpaste,2
+0.1669,Mop,1
+0.1669,Detergent + Mop,2
+0.1646,Conditioner + Soap,2
+0.1646,Conditioner + Shampoo + Soap,3
+0.1636,Popcorn,1
+0.1636,Chips + Popcorn,2
+0.1605,Razor,1
+0.1605,Razor + Shampoo,2
+0.1579,Bleach + Toothpaste,2
+0.1576,Cookies + Soda,2
+0.1576,Chips + Cookies + Soda,3
+0.1566,Coffee,1
+0.1566,Bread + Coffee,2
+0.156,Conditioner + Toothpaste,2
+0.156,Conditioner + Shampoo + Toothpaste,3
+0.1534,Detergent + Shampoo + Sponge,3
+0.1525,Butter + Eggs,2
+0.1525,Bread + Butter + Eggs,3
+0.1503,Detergent + Shampoo + Toothpaste,3
+0.15,Detergent + Soap + Sponge,3

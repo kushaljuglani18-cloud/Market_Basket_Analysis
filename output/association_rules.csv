@@ -1,0 +1,97 @@
+rule,antecedents_str,consequents_str,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric,antecedent_count,consequent_count
+Soda -> Chips,Soda,Chips,0.2115,0.2484,0.2115,1.0,4.0258,0.159,inf,0.9532,1,1
+Chocolate + Soda -> Chips,Chocolate + Soda,Chips,0.1676,0.2484,0.1676,1.0,4.0258,0.126,inf,0.9029,2,1
+Popcorn -> Chips,Popcorn,Chips,0.1636,0.2484,0.1636,1.0,4.0258,0.123,inf,0.8986,1,1
+Cookies + Soda -> Chips,Cookies + Soda,Chips,0.1576,0.2484,0.1576,1.0,4.0258,0.1185,inf,0.8922,2,1
+Chips -> Chocolate + Soda,Chips,Chocolate + Soda,0.2484,0.1676,0.1676,0.6747,4.0258,0.126,2.559,1.0,1,2
+Chips -> Cookies + Soda,Chips,Cookies + Soda,0.2484,0.1576,0.1576,0.6345,4.0258,0.1185,2.3045,1.0,1,2
+Chips -> Soda,Chips,Soda,0.2484,0.2115,0.2115,0.8514,4.0258,0.159,5.308,1.0,1,1
+Chips -> Popcorn,Chips,Popcorn,0.2484,0.1636,0.1636,0.6586,4.0258,0.123,2.45,1.0,1,1
+Chips + Cookies -> Soda,Chips + Cookies,Soda,0.1863,0.2115,0.1576,0.8459,3.9998,0.1182,5.1184,0.9217,2,1
+Soda -> Chips + Cookies,Soda,Chips + Cookies,0.2115,0.1863,0.1576,0.7452,3.9998,0.1182,3.1929,0.9512,1,2
+Chips + Chocolate -> Soda,Chips + Chocolate,Soda,0.1983,0.2115,0.1676,0.8452,3.9961,0.1257,5.0931,0.9352,2,1
+Soda -> Chips + Chocolate,Soda,Chips + Chocolate,0.2115,0.1983,0.1676,0.7924,3.9961,0.1257,3.8624,0.9509,1,2
+Eggs -> Butter,Eggs,Butter,0.1796,0.2146,0.1525,0.8491,3.9567,0.114,5.2051,0.9109,1,1
+Bread + Eggs -> Butter,Bread + Eggs,Butter,0.1796,0.2146,0.1525,0.8491,3.9567,0.114,5.2051,0.9109,2,1
+Eggs -> Bread + Butter,Eggs,Bread + Butter,0.1796,0.2146,0.1525,0.8491,3.9567,0.114,5.2051,0.9109,1,2
+Butter -> Eggs,Butter,Eggs,0.2146,0.1796,0.1525,0.7106,3.9567,0.114,2.8351,0.9514,1,1
+Bread + Butter -> Eggs,Bread + Butter,Eggs,0.2146,0.1796,0.1525,0.7106,3.9567,0.114,2.8351,0.9514,2,1
+Butter -> Bread + Eggs,Butter,Bread + Eggs,0.2146,0.1796,0.1525,0.7106,3.9567,0.114,2.8351,0.9514,1,2
+Butter -> Bread + Milk,Butter,Bread + Milk,0.2146,0.2338,0.1747,0.8141,3.4819,0.1245,4.121,0.9076,1,2
+Bread + Milk -> Butter,Bread + Milk,Butter,0.2338,0.2146,0.1747,0.7472,3.4819,0.1245,3.107,0.9303,2,1
+Conditioner -> Shampoo + Toothpaste,Conditioner,Shampoo + Toothpaste,0.2072,0.2421,0.156,0.7529,3.1099,0.1058,3.0671,0.8558,1,2
+Shampoo + Toothpaste -> Conditioner,Shampoo + Toothpaste,Conditioner,0.2421,0.2072,0.156,0.6444,3.1099,0.1058,2.2292,0.8952,2,1
+Butter -> Bread,Butter,Bread,0.2146,0.3263,0.2146,1.0,3.0647,0.1446,inf,0.8578,1,1
+Eggs -> Bread,Eggs,Bread,0.1796,0.3263,0.1796,1.0,3.0647,0.121,inf,0.8212,1,1
+Butter + Milk -> Bread,Butter + Milk,Bread,0.1747,0.3263,0.1747,1.0,3.0647,0.1177,inf,0.8163,2,1
+Jam -> Bread,Jam,Bread,0.1682,0.3263,0.1682,1.0,3.0647,0.1133,inf,0.8099,1,1
+Coffee -> Bread,Coffee,Bread,0.1566,0.3263,0.1566,1.0,3.0647,0.1055,inf,0.7988,1,1
+Butter + Eggs -> Bread,Butter + Eggs,Bread,0.1525,0.3263,0.1525,1.0,3.0647,0.1027,inf,0.7949,2,1
+Bread -> Butter,Bread,Butter,0.3263,0.2146,0.2146,0.6577,3.0647,0.1446,2.2943,1.0,1,1
+Shampoo + Soap -> Conditioner,Shampoo + Soap,Conditioner,0.2655,0.2072,0.1646,0.62,2.9921,0.1096,2.0861,0.9064,2,1
+Conditioner -> Shampoo + Soap,Conditioner,Shampoo + Soap,0.2072,0.2655,0.1646,0.7944,2.9921,0.1096,3.5725,0.8398,1,2
+Chips -> Chocolate,Chips,Chocolate,0.2484,0.2752,0.1983,0.7983,2.9008,0.1299,3.5936,0.8718,1,1
+Chocolate -> Chips,Chocolate,Chips,0.2752,0.2484,0.1983,0.7206,2.9008,0.1299,2.6897,0.9041,1,1
+Soda -> Chocolate,Soda,Chocolate,0.2115,0.2752,0.1676,0.7924,2.8795,0.1094,3.4919,0.8278,1,1
+Chips + Soda -> Chocolate,Chips + Soda,Chocolate,0.2115,0.2752,0.1676,0.7924,2.8795,0.1094,3.4919,0.8278,2,1
+Chocolate -> Soda,Chocolate,Soda,0.2752,0.2115,0.1676,0.609,2.8795,0.1094,2.0167,0.9005,1,1
+Chocolate -> Chips + Soda,Chocolate,Chips + Soda,0.2752,0.2115,0.1676,0.609,2.8795,0.1094,2.0167,0.9005,1,2
+Butter -> Milk,Butter,Milk,0.2146,0.2952,0.1747,0.8141,2.7577,0.1114,3.7907,0.8115,1,1
+Bread + Butter -> Milk,Bread + Butter,Milk,0.2146,0.2952,0.1747,0.8141,2.7577,0.1114,3.7907,0.8115,2,1
+Cookies -> Chips,Cookies,Chips,0.274,0.2484,0.1863,0.6799,2.7372,0.1182,2.3482,0.8742,1,1
+Chips -> Cookies,Chips,Cookies,0.2484,0.274,0.1863,0.75,2.7372,0.1182,2.904,0.8444,1,1
+Soda -> Cookies,Soda,Cookies,0.2115,0.274,0.1576,0.7452,2.7195,0.0996,2.8488,0.8019,1,1
+Chips + Soda -> Cookies,Chips + Soda,Cookies,0.2115,0.274,0.1576,0.7452,2.7195,0.0996,2.8488,0.8019,2,1
+Conditioner -> Shampoo,Conditioner,Shampoo,0.2072,0.3731,0.2072,1.0,2.6802,0.1299,inf,0.7907,1,1
+Conditioner + Soap -> Shampoo,Conditioner + Soap,Shampoo,0.1646,0.3731,0.1646,1.0,2.6802,0.1032,inf,0.7504,2,1
+Razor -> Shampoo,Razor,Shampoo,0.1605,0.3731,0.1605,1.0,2.6802,0.1006,inf,0.7468,1,1
+Conditioner + Toothpaste -> Shampoo,Conditioner + Toothpaste,Shampoo,0.156,0.3731,0.156,1.0,2.6802,0.0978,inf,0.7428,2,1
+Disinfectant -> Detergent,Disinfectant,Detergent,0.1785,0.3772,0.1785,1.0,2.6511,0.1112,inf,0.7581,1,1
+Mop -> Detergent,Mop,Detergent,0.1669,0.3772,0.1669,1.0,2.6511,0.1039,inf,0.7476,1,1
+Conditioner -> Toothpaste,Conditioner,Toothpaste,0.2072,0.2964,0.156,0.7529,2.5401,0.0946,2.8474,0.7648,1,1
+Conditioner + Shampoo -> Toothpaste,Conditioner + Shampoo,Toothpaste,0.2072,0.2964,0.156,0.7529,2.5401,0.0946,2.8474,0.7648,2,1
+Milk -> Bread,Milk,Bread,0.2952,0.3263,0.2338,0.792,2.4272,0.1375,3.239,0.8343,1,1
+Bread -> Milk,Bread,Milk,0.3263,0.2952,0.2338,0.7165,2.4272,0.1375,2.4862,0.8728,1,1
+Detergent + Sponge -> Bleach,Detergent + Sponge,Bleach,0.2452,0.2935,0.1721,0.7019,2.3914,0.1001,2.3698,0.7708,2,1
+Bleach + Sponge -> Detergent,Bleach + Sponge,Detergent,0.1921,0.3772,0.1721,0.8959,2.3751,0.0996,5.982,0.7166,2,1
+Conditioner -> Soap,Conditioner,Soap,0.2072,0.3355,0.1646,0.7944,2.3678,0.0951,3.232,0.7286,1,1
+Conditioner + Shampoo -> Soap,Conditioner + Shampoo,Soap,0.2072,0.3355,0.1646,0.7944,2.3678,0.0951,3.232,0.7286,2,1
+Cookies -> Chocolate,Cookies,Chocolate,0.274,0.2752,0.1767,0.6449,2.3434,0.1013,2.0411,0.7896,1,1
+Chocolate -> Cookies,Chocolate,Cookies,0.2752,0.274,0.1767,0.6421,2.3434,0.1013,2.0284,0.7909,1,1
+Shampoo + Soap -> Toothpaste,Shampoo + Soap,Toothpaste,0.2655,0.2964,0.1818,0.6847,2.3102,0.1031,2.2318,0.7721,2,1
+Toothpaste -> Shampoo + Soap,Toothpaste,Shampoo + Soap,0.2964,0.2655,0.1818,0.6134,2.3102,0.1031,1.8997,0.8061,1,2
+Bleach + Detergent -> Sponge,Bleach + Detergent,Sponge,0.2479,0.3006,0.1721,0.6942,2.3095,0.0976,2.2874,0.7539,2,1
+Soap + Toothpaste -> Shampoo,Soap + Toothpaste,Shampoo,0.2123,0.3731,0.1818,0.8563,2.2952,0.1026,4.3636,0.7164,2,1
+Bleach -> Detergent,Bleach,Detergent,0.2935,0.3772,0.2479,0.8446,2.2392,0.1372,4.0086,0.7833,1,1
+Detergent -> Bleach,Detergent,Bleach,0.3772,0.2935,0.2479,0.6572,2.2392,0.1372,2.061,0.8886,1,1
+Shampoo + Toothpaste -> Soap,Shampoo + Toothpaste,Soap,0.2421,0.3355,0.1818,0.7509,2.2382,0.1006,2.6679,0.7299,2,1
+Toothpaste -> Shampoo,Toothpaste,Shampoo,0.2964,0.3731,0.2421,0.8168,2.1892,0.1315,3.422,0.7721,1,1
+Shampoo -> Toothpaste,Shampoo,Toothpaste,0.3731,0.2964,0.2421,0.6489,2.1892,0.1315,2.0039,0.8665,1,1
+Bleach -> Sponge,Bleach,Sponge,0.2935,0.3006,0.1921,0.6545,2.1774,0.1039,2.0244,0.7654,1,1
+Sponge -> Bleach,Sponge,Bleach,0.3006,0.2935,0.1921,0.6391,2.1774,0.1039,1.9574,0.7731,1,1
+Sponge -> Detergent,Sponge,Detergent,0.3006,0.3772,0.2452,0.8157,2.1625,0.1318,3.3793,0.7686,1,1
+Detergent -> Sponge,Detergent,Sponge,0.3772,0.3006,0.2452,0.6501,2.1625,0.1318,1.9986,0.8632,1,1
+Toothpaste -> Soap,Toothpaste,Soap,0.2964,0.3355,0.2123,0.7163,2.1349,0.1129,2.3419,0.7555,1,1
+Soap -> Toothpaste,Soap,Toothpaste,0.3355,0.2964,0.2123,0.6328,2.1349,0.1129,1.9161,0.8,1,1
+Soap -> Shampoo,Soap,Shampoo,0.3355,0.3731,0.2655,0.7914,2.121,0.1403,3.0046,0.7954,1,1
+Shampoo -> Soap,Shampoo,Soap,0.3731,0.3355,0.2655,0.7116,2.121,0.1403,2.3041,0.8431,1,1
+Detergent + Soap -> Sponge,Detergent + Soap,Sponge,0.2393,0.3006,0.15,0.6268,2.0853,0.0781,1.8742,0.6842,2,1
+Soap + Sponge -> Detergent,Soap + Sponge,Detergent,0.1934,0.3772,0.15,0.7756,2.0562,0.077,2.7753,0.6368,2,1
+Detergent + Shampoo -> Sponge,Detergent + Shampoo,Sponge,0.2519,0.3006,0.1534,0.609,2.0259,0.0777,1.7886,0.6769,2,1
+Detergent + Shampoo -> Soap,Detergent + Shampoo,Soap,0.2519,0.3355,0.1693,0.6721,2.0033,0.0848,2.0265,0.6694,2,1
+Detergent + Toothpaste -> Shampoo,Detergent + Toothpaste,Shampoo,0.2046,0.3731,0.1503,0.7346,1.9689,0.074,2.3621,0.6187,2,1
+Shampoo + Sponge -> Detergent,Shampoo + Sponge,Detergent,0.2088,0.3772,0.1534,0.7347,1.9477,0.0746,2.3473,0.615,2,1
+Sponge -> Soap,Sponge,Soap,0.3006,0.3355,0.1934,0.6434,1.9177,0.0925,1.8633,0.6842,1,1
+Detergent + Soap -> Shampoo,Detergent + Soap,Shampoo,0.2393,0.3731,0.1693,0.7075,1.8962,0.08,2.1431,0.6213,2,1
+Soap -> Detergent,Soap,Detergent,0.3355,0.3772,0.2393,0.7133,1.8909,0.1127,2.172,0.709,1,1
+Detergent -> Soap,Detergent,Soap,0.3772,0.3355,0.2393,0.6344,1.8909,0.1127,1.8176,0.7565,1,1
+Bleach -> Soap,Bleach,Soap,0.2935,0.3355,0.185,0.6303,1.8788,0.0865,1.7975,0.662,1,1
+Sponge -> Shampoo,Sponge,Shampoo,0.3006,0.3731,0.2088,0.6946,1.8617,0.0966,2.0528,0.6618,1,1
+Toothpaste -> Detergent,Toothpaste,Detergent,0.2964,0.3772,0.2046,0.6903,1.83,0.0928,2.0109,0.6446,1,1
+Detergent + Sponge -> Soap,Detergent + Sponge,Soap,0.2452,0.3355,0.15,0.6117,1.8234,0.0677,1.7115,0.5983,2,1
+Detergent -> Shampoo,Detergent,Shampoo,0.3772,0.3731,0.2519,0.6678,1.7899,0.1112,1.8872,0.7086,1,1
+Shampoo -> Detergent,Shampoo,Detergent,0.3731,0.3772,0.2519,0.6752,1.7899,0.1112,1.9172,0.704,1,1
+Bleach -> Shampoo,Bleach,Shampoo,0.2935,0.3731,0.1935,0.6593,1.767,0.084,1.84,0.6144,1,1
+Shampoo + Soap -> Detergent,Shampoo + Soap,Detergent,0.2655,0.3772,0.1693,0.6377,1.6905,0.0692,1.7189,0.5561,2,1
+Detergent + Sponge -> Shampoo,Detergent + Sponge,Shampoo,0.2452,0.3731,0.1534,0.6256,1.6768,0.0619,1.6745,0.5347,2,1
+Shampoo + Toothpaste -> Detergent,Shampoo + Toothpaste,Detergent,0.2421,0.3772,0.1503,0.6208,1.6459,0.059,1.6425,0.5178,2,1

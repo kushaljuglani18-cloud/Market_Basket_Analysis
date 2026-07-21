@@ -1,0 +1,3 @@
+algorithm,seconds,frequent_itemsets
+Apriori,0.011548995971679688,68
+FP-Growth,0.04417276382446289,68
