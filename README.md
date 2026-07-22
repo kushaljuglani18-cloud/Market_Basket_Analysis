@@ -17,8 +17,7 @@ findings into concrete business recommendations.
 
 ## Pipeline
 
-| Module | File | Purpose |
-|---|---|---|
+|---|---|
 | transactions.csv |
 | 'data_preprocessing.py' | Long Format → One-Hot Encoded basket matrix |
 | association_rules.py | Apriori + FP-Growth, Support/Confidence/Lift |
