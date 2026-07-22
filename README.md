@@ -17,15 +17,13 @@ findings into concrete business recommendations.
 
 ## Pipeline
 
-transactions.csv
-↓
-data_preprocessing.py — Long Format → One-Hot Encoded basket matrix
-↓
-association_rules.py — Apriori + FP-Growth, Support/Confidence/Lift
-↓
-visualize.py — Network graphs + bar chart + scatter plot
-↓
-output/association_rules.csv + 4 visualizations
+| Module | File | Purpose |
+|---|---|---|
+| transactions.csv |
+| 'data_preprocessing.py' | Long Format → One-Hot Encoded basket matrix |
+| association_rules.py | Apriori + FP-Growth, Support/Confidence/Lift |
+| visualize.py | Network graphs + bar chart + scatter plot |
+| output/association_rules.csv + 4 visualizations |
 
 ---
 
